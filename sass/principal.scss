@@ -42,8 +42,12 @@ footer {
 }
 
 .contenedor {
-  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 1.875em;
+  margin-right: auto;
+  margin-left: auto;
   width: 75%;
+  
   header {
     margin: 50px auto;
     text-align: center;
