@@ -27,14 +27,14 @@ footer {
           align-self: flex-end;
   background: #001F3F;
   width: 100%;
-  padding: 1em;
+  padding: .8em;
   color: #F5F5F5;
   text-align: center;
 }
 
 .contenedor {
   margin-top: 0;
-  margin-bottom: 1.875em;
+  margin-bottom: 3em;
   margin-right: auto;
   margin-left: auto;
   width: 75%;
@@ -47,6 +47,7 @@ footer {
 
 .contenedor header .encabezado {
   background: #AAA;
+  box-shadow: 0 20px 20px -12px #000;
   color: #F5F5F5;
   display: inline-block;
   font-weight: normal;
@@ -65,11 +66,6 @@ footer {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -109,11 +105,6 @@ footer {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
